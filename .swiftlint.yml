@@ -1,0 +1,27 @@
+# SwiftLint configuration         
+# Keep this file at the project root (same level as the Xcode project file).    
+# This extends the default rules and relaxes function_body_length so large
+# SwiftUI body builders or Combine pipelines don’t raise warnings.            
+
+opt_in_rules: []           # Add any opt‑in rules you want
+
+# --- Customized Rules -----------------------------------------------------
+function_body_length:
+  warning: 100   # warn only if a function exceeds 100 lines
+  error: 150     # error if it exceeds 150 lines
+  ignores_comments: true
+  ignores_empty_functions: true
+
+# You can further tweak other common rules if needed:
+# identifier_name:
+#   excluded:
+#     - id   # allow `id` properties in models
+
+# --- Excluded paths -------------------------------------------------------
+# exclude: 
+#   - Carthage
+#   - Pods
+#   - Generated
+
+# --- Reporter -------------------------------------------------------------
+# reporter: "xcode"        # default; alternatives: json, csv, etc.

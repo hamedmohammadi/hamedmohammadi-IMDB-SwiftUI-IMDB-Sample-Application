@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+Desktop.ini
+.AppleDouble
+.LSOverride
+
+# Build generated
+build/
+DerivedData/
+
+# Various IDEs
+.idea/
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserdatad/
+xcuserdata/
+
+# Swift Package Manager
+/.swiftpm/
+/Packages/
+/*.xcodeproj
+Package.resolved
+Package.pins
+*.xcworkspace
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+Carthage/Checkouts
+*.framework
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Secrets
+# Add any files that might contain sensitive information, like API keys if not hardcoded (though hardcoding is bad practice)
+# Example:
+# Secrets.xcconfig
+# .env
+
+# SwiftLint (if installed via Mint or local binary not managed by Homebrew)
+# .swiftlint.yml # Usually committed, but can be ignored if specific to local setup
+# swiftlint # If you download the binary directly
+
+# Other
+*.moved-aside
+*.swp
+*~
+*.bak
+
+# Specific to this project if any (unlikely for a clean SwiftUI app)
+
+# Xcode Cloud
+xcshareddata/xcbaselines/
