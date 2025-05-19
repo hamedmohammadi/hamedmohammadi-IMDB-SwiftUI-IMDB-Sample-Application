@@ -19,7 +19,6 @@ xcuserdata/
 # Swift Package Manager
 /.swiftpm/
 /Packages/
-/*.xcodeproj
 Package.resolved
 Package.pins
 *.xcworkspace
