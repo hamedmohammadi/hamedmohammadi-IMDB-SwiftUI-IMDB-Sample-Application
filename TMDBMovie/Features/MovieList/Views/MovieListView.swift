@@ -114,7 +114,7 @@ struct MovieListView: View {
                 }
             }
             .padding(EdgeInsets(top: 8, leading: 12, bottom: 8, trailing: 12))
-            .background(Color(.systemGray6)) // Use system color for adaptability
+            .background(Color(.lightGray)) // Use system color for adaptability
             .cornerRadius(10)
             .padding([.horizontal, .top])
 
